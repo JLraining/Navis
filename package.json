@@ -1,0 +1,25 @@
+{
+  "name": "navis",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "tsc && node lib/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JLraining/Navis.git"
+  },
+  "author": "lilian",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JLraining/Navis/issues"
+  },
+  "homepage": "https://github.com/JLraining/Navis#readme",
+  "devDependencies": {
+    "@types/node": "^16.11.4",
+    "supervisor": "^0.12.0",
+    "typescript": "^4.4.4"
+  }
+}
